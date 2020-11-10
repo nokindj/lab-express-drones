@@ -1,7 +1,15 @@
+
 body {
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-image: url("/images/drone\ 1.jpeg");
+  background-size: cover;
+  background-position: center -120px;
+  background-repeat: no-repeat;
+
 }
+
+
 
 a {
   color: #00b7ff;
@@ -14,22 +22,25 @@ a {
 
 }
 
+.updates {
+  display: flex;
+  margin-top:10px;
+  padding: 5px;
+  width: 200px;
+}
+
 .drones-list {
   position: relative;
   padding: 80px;
   bottom: 30px;
-  background-image: url("/images/drone\ 1.jpeg");
-  background-size: cover;
-  background-position: center -120px;
-  background-repeat: no-repeat;
-  width: 80em;
-  height: 50em;
+  
+ 
 }
 
 .hr {
   border-top: 0px dotted black;
 }
-.edit {
+#edit {
   position: relative;
   padding-top: 10px;
   font-weight:  bold;

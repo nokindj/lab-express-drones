@@ -29,7 +29,7 @@ router.post('/drones/create', (req, res, next) => {
     propeller, 
     maxSpeed
   }).then(() => {
-    res.redirect("/drones");
+    res.redirect("/drones")
   }).catch((err) => {
     res.render("error", {err});
   })
